@@ -1,0 +1,50 @@
+#ifndef _APP_CONFIG_H    /* Guard against multiple inclusion */
+#define _APP_CONFIG_H
+
+#include "hardware.h"
+
+// Physical address where Software and Hardware version is saved
+// The reason is to let the bootloader access at this information without execute the app
+#define app_version_addr            0xBD03F700//0x9D03F700
+
+/*
+ Hardware and Software version definition
+ */
+#define Hw_Base_Version             (0x03)
+#define Software_Version            (8)
+/*----------------------------------------*/
+
+#define Hardware_Version            ((uint32_t)Hw_Base_Version<<4 | (0))
+
+
+
+/* Provide C++ Compatibility */
+#ifdef __cplusplus
+extern "C" {
+#endif
+    
+
+    #define an_input_potentiometer                      (15)
+    #define an_input_v_bus                              (0)
+    #define an_input_v_dcin                             (1)
+    #define an_input_sens                               (6)      
+    //extern const GPIO_T led_status_pin;
+    //extern const GPIO_T led_activity_pin;
+    //extern const GPIO_T push_pin;
+
+    
+
+
+    void APP_CFG_Initialize();
+
+
+/* Provide C++ Compatibility */
+#ifdef __cplusplus
+}
+#endif
+
+#endif 
+
+/* *****************************************************************************
+ End of File
+ */

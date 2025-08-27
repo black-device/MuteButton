@@ -1,0 +1,1 @@
+ $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"../usb_hid_cdc_lib.X/src/usb_hid_cdc" -fno-common -DBOOT_WITHOUT_BOOTLOADER   -DXPRJ_default=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  /home/bd/zzz/mute-button/firmware/mute-button.X/src/hardware.c
