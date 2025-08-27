@@ -46,25 +46,25 @@ This repository includes all design files: firmware, drivers, PCB, and 3D-printe
 ## 📂 Repository contents
 
 /hardware  
-├── bom-mutebutton-v1.xls  
-├── gerber-mutebutton-v1.zip  
-├── assembly-mutebutton-v1.pdf  
+ bom-mutebutton-v1.xls  
+ gerber-mutebutton-v1.zip  
+ assembly-mutebutton-v1.pdf  
 
 /enclosure  
-├── mutebutton-v1-enclosuredesign.step  
-├── mutebutton-v1-bottom.stl  
-├── mutebutton-v1-top.stl  
+ mutebutton-v1-enclosuredesign.step  
+ mutebutton-v1-bottom.stl  
+ mutebutton-v1-top.stl  
 
 /firmware  
-├── mutebutton-v1-firmware-microcontroller.hex    
-├── mute-btn-systray_1.0.0 1.exe  
-└── /sourcecode
+ mutebutton-v1-firmware-microcontroller.hex    
+ mute-btn-systray_1.0.0 1.exe  
+ /sourcecode
 
 /images
-├── mutebutton-exploded-specs.jpg
-├── 002-mutebutton-render.jpg
-├── 001-mutebutton-render-exploded.jpg
-├── opensource-mutebutton-diyproject.jpg
+ mutebutton-exploded-specs.jpg
+ 002-mutebutton-render.jpg
+ 001-mutebutton-render-exploded.jpg
+ opensource-mutebutton-diyproject.jpg
 
 ---
 
