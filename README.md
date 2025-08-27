@@ -59,11 +59,13 @@ This repository includes all design files: firmware, drivers, PCB, and 3D-printe
 ├── mutebutton-v1-firmware-microcontroller.hex    
 ├── mute-btn-systray_1.0.0 1.exe  
 └── /sourcecode
+
 /images
 ├── mutebutton-exploded-specs.jpg
 ├── 002-mutebutton-render.jpg
 ├── 001-mutebutton-render-exploded.jpg
 ├── opensource-mutebutton-diyproject.jpg
+
 ---
 
 ## 🛠 What you’ll need
