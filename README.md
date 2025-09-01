@@ -130,4 +130,9 @@ This repository includes all design files: firmware, drivers, PCB, and 3D-printe
 
 ---
 
+## License
+This project is licensed under the [MIT License](LICENSE).  
+Please give credit to **Black Device** when using or distributing this code.
+
+---
 ### Made with ❤️ by [blackdevice](https://blackdevice.com)
