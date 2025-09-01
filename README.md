@@ -60,7 +60,10 @@ This repository includes all design files: firmware, drivers, PCB, and 3D-printe
 /firmware  
 -mutebutton-v1-firmware-microcontroller.hex    
 -mute-btn-systray_1.0.0 1.exe  
--/sourcecode
+-/sourcecode  
+--/mute-button.X  
+--/usb_hid_cdc_lib.X  
+--/win-snd-mngr  
 
 /images  
 -mutebutton-exploded-specs.jpg  
